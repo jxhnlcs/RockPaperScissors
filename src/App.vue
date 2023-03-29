@@ -130,6 +130,7 @@ onMounted(() => {
 			<div class="text-lg">Taxa de vitória: {{ Math.round(winPercentage) }}%</div>
 		</main>
 
+
 		<footer class="container mx-auto p-6">
 			<button><a href="https://github.com/jxhnlcs/RockPaperScissors" class="box">Click para ver o repositório!</a></button>
 		</footer>

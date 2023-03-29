@@ -75,4 +75,8 @@ button{
     background: transparent;
   }
 
-  
+@media screen and (max-width: 600px){
+  .box{
+    display: none;
+  }
+}
