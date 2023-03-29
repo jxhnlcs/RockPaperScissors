@@ -95,18 +95,18 @@ onMounted(() => {
 			<div v-if="choice === null" class="flex items-center justify-center -mx-6">
 
 				<button @click="play('pedra')"
-					class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-pink-500">
+					class="bg-white rounded-lg shadow-lg w-64 p-6 mx-2 transition-colors duration-300 hover:bg-pink-500">
 					<img src="./assets/RockIcon.svg" alt="Rock" class="w-full" />
 				</button>
 
 				<button @click="play('papel')"
-					class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-green-500">
-					<img src="./assets/PaperIcon.svg" alt="Paper" />
+					class="bg-white rounded-lg shadow-lg w-64 p-6 mx-2 transition-colors duration-300 hover:bg-green-500">
+					<img src="./assets/PaperIcon.svg" alt="Paper" class="w-full" />
 				</button>
 
 				<button @click="play('tesoura')"
-					class="bg-white rounded-full shadow-lg w-64 p-12 mx-6 transition-colors duration-300 hover:bg-yellow-500">
-					<img src="./assets/ScissorsIcon.svg" alt="Scissors" />
+					class="bg-white rounded-lg shadow-lg w-64 p-6 mx-2 transition-colors duration-300 hover:bg-yellow-500">
+					<img src="./assets/ScissorsIcon.svg" alt="Scissors" class="w-full" />
 				</button>
 
 			</div>
